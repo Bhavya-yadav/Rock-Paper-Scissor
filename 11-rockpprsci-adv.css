@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(21, 21, 21);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
+}
+.header{
+  font-weight: bold;  
+  font-size: 30px;
+  padding: 10px
+}
+.move-button{
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.move-button img{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.move-button:hover ::-ms-tooltip{
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.result{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.move{
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.move-icon{
+  height: 50px;
+  width: 50px;
+  margin: 10px 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px;
+}
+.reset-button , .autoPlay-button{
+  background-color: aliceblue;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
